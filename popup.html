@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Auto Login</title>
+    <style>
+      body {
+        width: 250px;
+        padding: 10px;
+        font-family: Arial, sans-serif;
+      }
+      select, button {
+        width: 100%;
+        padding: 10px;
+        font-size: 14px;
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Auto Login</h2>
+    <div>
+      <select id="siteSelect">
+        <option value="">Select Website</option>
+      </select>
+      <select id="userSelect">
+        <option value="">Select User</option>
+      </select>
+    </div>
+    <button id="saveButton">Save Selected</button>
+    <button id="addButton">Add Credentials</button>
+
+    <label>
+      Extension Enabled
+      <input type="checkbox" id="toggleExtension" />
+    </label>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
